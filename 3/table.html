@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tables</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <!--thead, tbody and tfoot are optional and are used to better target the css stylesheet file/!-->
+    <table>
+      <thead>
+        <tr>
+          <th>roll no</th>
+          <th>name</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>amit</td>
+          <td>abc@123</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>tima</td>
+          <td>xyz@456</td>
+        </tr>
+        <tr>
+          <td colspan="2">103</td>
+          <td rowspan="2">pqr@789</td>
+        </tr>
+        <tr>
+          <td>104</td>
+          <td>mati</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>105</td>
+          <td>footer</td>
+          <td>foot@0</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
