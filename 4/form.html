@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+</head>
+<body>
+  <h1>Exam registration form</h1>
+  <form action="" method="post" accept-charset="utf-8">
+    <!--div tag to seperate each label into different lines/!-->
+    <div>
+      <label for="username">username</label>
+      <input type="text" id="username" name="username" placeholder="enter your username" autofocus>
+    </div>
+    <div>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">female</label>
+    </div>
+    <div>
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes"/>
+      <label for="subscribe">subscribe to the exam channel</label>
+    </div>
+    <div>
+      <label for="comment">comment</label>
+      <br />
+      <textarea name="comment" id="comment" rows="4" cols="20"></textarea>
+    </div>
+    <div>
+      <select name="subject">
+        <option value="maths">maths</option>
+        <option value="english">english</option>
+        <option value="dbms">dbms</option>
+      </select>
+    </div>
+  </form>
+</body>
+</html>
